@@ -85,7 +85,7 @@ const loadUsers=async()=>{
                 onChange={(e) => onInputChange(e)}
               />
             </div>
-
+           
             <button type="submit" className="btn btn-outline-primary">
               Submit
             </button>
@@ -93,8 +93,14 @@ const loadUsers=async()=>{
               Cancel
             </Link>
           </form>
+          
         </div>
       </div>
+      <blockquote class="blockquote mb-0">
+      <p>A well-known quote, contained in a blockquote element.</p>
+      <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+    </blockquote>
     </div>
+    
   );
 }

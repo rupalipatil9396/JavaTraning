@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-light">
+      <nav className="navbar navbar-expand-lg bg-primary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Navbar
+            Sevice Provider
           </a>
           <button
             className="navbar-toggler"

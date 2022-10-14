@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./logindashboard.css";
 
 export default function LoginDashboard() {
   return (
-    <div>
+    <div className="logindashboard">
       <div>LoginDashboard</div>
       <div>
         <Link className="btn-btn-outline-light" to="/registeruser">

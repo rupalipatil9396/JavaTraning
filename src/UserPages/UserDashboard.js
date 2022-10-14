@@ -2,6 +2,7 @@ import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState, useInsertionEffect } from "react";
 import axios from "axios";
+import "./user.css";
 var locationid;
 var providerid;
 export default function UserDashboard() {
